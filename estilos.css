@@ -13,6 +13,7 @@
       height: 100%;
       place-items: center;
       background: #f2f2f2;
+      /*background: linear-gradient(135deg, #c850c0, #4158d0);*/
    }
 
    .wrapper {
