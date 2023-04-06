@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100&display=swap');
 
 body,
@@ -42,4 +43,50 @@ body,
    background: linear-gradient(-135deg, #c850c0, #4158d0);
    color: #fff;
    cursor: pointer;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100&display=swap');
+
+body,
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.tabla-desktop {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.tabla-desktop tr th {
+   background: linear-gradient(-135deg, #c850c0, #4158d0);
+   color: #fff;
+   font-weight: 500;
+   padding: 5px 0;
+   text-align: left;
+   border: 1px solid #000000;
+}
+
+/*.tabla-desktop tr td {
+   padding: 5px 0;
+   border: 1px solid #bab8b8;
+}*/
+
+.tabla-desktop tr:nth-of-type(odd) {
+   background: #f7e1f6;
+   border: 1px solid #bab8b8;
+}
+
+.tabla-desktop tr:nth-of-type(even) {
+   background: #d7dcf6;
+   border: 1px solid #bab8b8;
+}
+
+/*Resalta la fila seleccionada*/
+.tabla-desktop tr:hover {
+   background: linear-gradient(-135deg, #c850c0, #4158d0);
+   color: #fff;
+   cursor: pointer;
+>>>>>>> 0850c89ce4ef7347bc9f7300658a067de9072b48
 }
